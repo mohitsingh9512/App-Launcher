@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- our toolbar -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Manage Categories"
+        android:id="@+id/manageCategories_tv"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:textSize="20dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:drawableLeft="@mipmap/settings_icon"/>
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Themes"
+        android:id="@+id/theme_tv"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:textSize="20dp"
+        android:layout_below="@+id/manageCategories_tv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:drawableLeft="@mipmap/theme_icon"
+        android:layout_marginTop="15dp" />  -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Drawer View"
+        android:id="@+id/drawer_view_tv"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:textSize="20dp"
+        android:layout_below="@+id/manageCategories_tv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:drawableLeft="@mipmap/drawer_view_icon"
+        android:layout_marginTop="15dp"
+
+        />
+</RelativeLayout>

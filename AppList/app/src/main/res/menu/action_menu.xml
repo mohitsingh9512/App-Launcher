@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<item
+        android:id="@+id/mySwitch"
+        android:title=""
+        app:showAsAction="always"
+        app:actionLayout="@layout/use_switch"/>
+        -->
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/orderAlphabetically"
+        android:title="A-Z order"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:visible="true"
+        android:checkable="true"
+        android:checked="false"/>
+    <item
+        android:id="@+id/filterSysApps"
+        android:title="Filter System Apps"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:visible="true"
+        android:checkable="true"
+        android:checked="false"/>
+
+</menu>
